@@ -4,8 +4,7 @@ public class App {
     }
 }
 
-/* class as{
-    public static void main(String[] args) {
-        System.out.println("Ilya LOX");
-    }
+/*
+ * class as{ public static void main(String[] args) {
+ * System.out.println("жуф LOX"); }
  */

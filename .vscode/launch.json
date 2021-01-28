@@ -6,6 +6,97 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "123-JAVA and Pyton_69a3ea62"
+        },
+        {
+            "type": "java",
+            "name": "Launch KvadratnoeUravnenie",
+            "request": "launch",
+            "mainClass": "com.company.KvadratnoeUravnenie",
+            "projectName": "123-JAVA and Pyton_69a3ea62"
+        },
+        {
+            "type": "java",
+            "name": "Launch KvadratnoeUravnenie",
+            "request": "launch",
+            "mainClass": "com.company.KvadratnoeUravnenie",
+            "projectName": "123-JAVA and Pyton_409687a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch CaLcUlAtOr",
+            "request": "launch",
+            "mainClass": "com.company.CaLcUlAtOr",
+            "projectName": "123-JAVA and Pyton_409687a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch корни",
+            "request": "launch",
+            "mainClass": "com.company.корни",
+            "projectName": "123-JAVA and Pyton_409687a8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - infiniti",
+            "request": "launch",
+            "mainClass": "com.company.infiniti",
+            "projectName": "123-JAVA_7912b587"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CaLcUlAtOr",
+            "request": "launch",
+            "mainClass": "com.company.CaLcUlAtOr",
+            "projectName": "123-JAVA_6c184e42"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PasswordGenerator",
+            "request": "launch",
+            "mainClass": "com.company.PasswordGenerator",
+            "projectName": "123-JAVA_5f7f58c1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CaLcUlAtOr",
+            "request": "launch",
+            "mainClass": "com.company.CaLcUlAtOr",
+            "projectName": "123-JAVA_5f7f58c1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - rrr",
+            "request": "launch",
+            "mainClass": "com.company.rrr",
+            "projectName": "123-JAVA_7912b587"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CaLcUlAtOr",
+            "request": "launch",
+            "mainClass": "com.company.CaLcUlAtOr",
+            "projectName": "123-JAVA_7912b587"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Calculator",
+            "request": "launch",
+            "mainClass": "com.company.Calculator",
+            "projectName": "123-JAVA_7912b587"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PasswordGenerator",
+            "request": "launch",
+            "mainClass": "com.company.PasswordGenerator",
+            "projectName": "123-JAVA_7912b587"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"
