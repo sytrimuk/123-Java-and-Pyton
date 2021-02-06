@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch NewCalculator",
+            "request": "launch",
+            "mainClass": "ru.javalessons.projects.calc.NewCalculator",
+            "projectName": "123-JAVA and Pyton_409687a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch infiniti",
+            "request": "launch",
+            "mainClass": "com.company.infiniti",
+            "projectName": "123-JAVA and Pyton_409687a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "123-JAVA and Pyton_409687a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch PasswordGenerator",
+            "request": "launch",
+            "mainClass": "com.company.PasswordGenerator",
+            "projectName": "123-JAVA and Pyton_409687a8"
+        },
+        {
+            "type": "java",
             "name": "Launch App",
             "request": "launch",
             "mainClass": "App",

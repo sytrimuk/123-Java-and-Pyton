@@ -1,11 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Goodbye America!!");
+        System.out.println("это была шутка");
     }
 }
 
-/* class as{
-    public static void main(String[] args) {
-        System.out.println("Ilya LOX");
-    }
- */
