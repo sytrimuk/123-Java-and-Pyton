@@ -11,4 +11,3 @@ print("это ** :" + a ** b)
 g = input()
 if g == 10:
     print(g)
-    
