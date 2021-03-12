@@ -98,7 +98,7 @@ public class CaLcUlAtOr
 
                 case 1:
                     System.out.print("\nFirst action value = " + f + "\n");
-//               System.out.print("\nкакое будет 2 действие(если первое в скобках)\n0(=), 1(+), 2(-), 3(*), 4(/)\nкакое будет 2 действие(если первое не в скобках)\n5(+), 6(-), 7(*), 8(/)");
+               //System.out.print("\nкакое будет 2 действие(если первое в скобках)\n0(=), 1(+), 2(-), 3(*), 4(/)\nкакое будет 2 действие(если первое не в скобках)\n5(+), 6(-), 7(*), 8(/)");
                     System.out.print("С = ");
                     С = num_1.nextByte();
                     System.out.print("You choosed(D): " + С + "\n");
