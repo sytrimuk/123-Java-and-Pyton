@@ -11,13 +11,13 @@ while True:
     print(Fore.RESET)
 
     if  a == Random:
-        print(Fore.WHITE)
-        print(Back.RED)
+        print(Fore.LIGHTGREEN_EX)
         print('Вы ввели число: ', a, 'Иииииииииии... Это был правильный ответ!!\nЗагаданное число: ', Random)
         print(Fore.RESET)
-        print(Back.RESET)
     elif 0 <= a <= 100:
+        print(Fore.LIGHTCYAN_EX)
         print('Вы ввели число: ', a, '\nЗагаданное число находилось в диапозоне 0 – 100\nВот это число: ', Random, '\n------------------------------------------------------------------------')
+        print(Fore.RESET)
     else:
         print(Fore.YELLOW)
         print('Вы ввели число, которое не находится в диапозоне 0 – 100, попробуйте ещё раз\n------------------------------------------------------------------------')

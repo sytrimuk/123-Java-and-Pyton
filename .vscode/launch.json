@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "speechsdk.quickstart.Main",
+            "projectName": "123-JAVA and Pyton_409687a8"
+        },
+        {
+            "type": "java",
             "name": "Launch Geom",
             "request": "launch",
             "mainClass": "com.company.Geom",

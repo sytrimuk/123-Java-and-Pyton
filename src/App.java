@@ -3,4 +3,4 @@ public class App {
         System.out.println("это была шутка");
     }
 }
-
+/* http://proglang.su/java/numbers-random*/
