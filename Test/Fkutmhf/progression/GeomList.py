@@ -1,40 +1,50 @@
 #this program contains solutions to a geometric progression by formulas and its formulas
 
+#решение
+#формула
+
 import colorama
 from colorama import Fore, Back
 colorama.init()
 
+GREEN = Fore.GREEN
+RED_LX = Fore.LIGHTRED_EX
+YELLOW = Fore.YELLOW
+MAGENTA = Fore.MAGENTA
+RESET_F = Fore.RESET
+
 while True:
 
-    print(Fore.GREEN)
-    print('Если вам нужна решение, напишите \'решение\'\n', 'Если вам нужно формула, напишите \'формула\'')
+    print(GREEN + 'Если вам нужна решение, напишите \'решение\'\n',
+    'Если вам нужно формула, напишите \'формула\'' + RESET_F)
     b = input('Поле для запроса: ')
-    print(Fore.RESET)
 
-    print(Fore.LIGHTRED_EX)
-    print("------------------------------------------------------------------------")
-    print(Fore.RESET)
+    print(RED_LX + "------------------------------------------------------------------------" + RESET_F)
 
     if b == 'решение':
 
-        print(Fore.GREEN)
-        print('Какая формула вам нужна?\n', 'Если вам нужно найти bn, напишите \'bn\'\n', 'Если вам нужно найти b1, напишите \'b1\'')
+        print(GREEN + 'Какая формула вам нужна?\n',
+        'Если вам нужно найти bn, напишите \'bn\'\n',
+        'Если вам нужно найти b1, напишите \'b1\'\n',
+        'Если вам нужно найти Sn, напишите \'Sn\'\n',
+        'Если вам нужно найти q, напишите \'q\'' + RESET_F)
         a = input('Поле для запроса: ')
-        print(Fore.RESET)
 
         if a == 'bn':
 
-            print(Fore.YELLOW)
+            print(YELLOW)
             b = int(input('Введите число b: '))
             q = int(input('Введите число q: '))
             n = int(input('Введите число n: '))
             length = int(input('Введите до каких пор показывать геометрическую прогрессию: '))
-            print(Fore.RESET)
+            print(RESET_F)
 
-            print(Fore.MAGENTA)
-            print('b = ', b)
-            print('q = ', q)
-            print('n = ', n)
+            qwe = MAGENTA + 'b = ', b + '\nq = ', q + '\nn = ', n + RESET_F
+
+            #print('b = ', b)
+            #print('q = ', q)
+            #print('n = ', n)
+            print(qwe)
             geometric = [b * q ** (n - 1) for n in range(1, length + 1)]
             print(Fore.RESET)
 
@@ -65,19 +75,6 @@ while True:
             print("------------------------------------------------------------------------")
             print("------------------------------------------------------------------------")
             print(Fore.RESET)
-
-        elif a == 'Snb1':
-
-            b1 = int(input('Введите ваше b1: '))
-            bn = int(input('Введите ваше bn: '))
-            n = int(input('Введите число n: '))
-            q = int(input('Введите число q: '))
-
-            
-
-            print(Fore.LIGHTBLUE_EX)
-            print()
-            print(Fore.RESET)
         
         elif a == 'Sn':
 
@@ -91,19 +88,21 @@ while True:
 
         elif a == 'q':
 
-            bna = int(input('Введите ваше bna: '))
-            bnb = int(input('Введите ваше bnb: '))
+            bna = int(input('Введите ваше bnb: '))
+            bnb = int(input('Введите ваше bna: '))
 
-            q2 = bna / bnb
+            q2 = bnb / bna
+            q = q2 ** 0.5
             
             print()
 
     elif b == 'формула':
 
-        print(Fore.GREEN)
-        print('Какая формула вам нужна?\n', 'Если вам нужно найти bn, напишите \'bn\'\n', 'Если вам нужно найти b1, напишите \'b1\'\n', 'Если вам нужно найти Snb1, напишите \'Snb1\'\n', 'Если вам нужно найти Sn, напишите \'Sn\'\n',)
+        print(GREEN + 'Какая формула вам нужна?\n',
+        'Если вам нужно найти bn, напишите \'bn\'\n',
+        'Если вам нужно найти b1, напишите \'b1\'\n',
+        'Если вам нужно найти Sn, напишите \'Sn\'\n' + RESET_F)
         KakayaFormyla = input('Поле для запроса: ')
-        print(Fore.RESET)
 
         if KakayaFormyla == 'b1':
 
@@ -126,18 +125,7 @@ while True:
             print("------------------------------------------------------------------------")
             print("------------------------------------------------------------------------")
             print(Fore.RESET)
-
-        elif KakayaFormyla == 'Snb1':
-
-            print(Fore.LIGHTCYAN_EX)
-            print('(bn * q - b1) / (q -1)\nпри q ≠ 1')
-            print(Fore.RESET)
-
-            print(Fore.LIGHTRED_EX)
-            print("------------------------------------------------------------------------")
-            print("------------------------------------------------------------------------")
-            print(Fore.RESET)
-        
+      
         elif KakayaFormyla == 'Sn':
 
             print(Fore.LIGHTCYAN_EX)
@@ -148,3 +136,8 @@ while True:
             print("------------------------------------------------------------------------")
             print("------------------------------------------------------------------------")
             print(Fore.RESET)
+
+        elif KakayaFormyla == 'q':
+            print('bnb(2) / bna(1)')
+            print("------------------------------------------------------------------------")
+            print("------------------------------------------------------------------------")
